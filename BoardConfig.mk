@@ -8,7 +8,7 @@ TARGET_CPU_VARIANT := cortex-a7
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 
-TARGET_BOARD_PLATFORM := bcm2710
+TARGET_BOARD_PLATFORM := bcm2711
 
 TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
 TARGET_USERIMAGES_USE_EXT4 := true
@@ -42,6 +42,6 @@ BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 USE_CAMERA_STUB := true
 
 BOARD_SEPOLICY_DIRS := \
-    device/brcm/rpi3/sepolicy
+    device/arpi/rpi4/sepolicy
 
-DEVICE_MANIFEST_FILE := device/brcm/rpi3/manifest.xml
+DEVICE_MANIFEST_FILE := device/arpi/rpi4/manifest.xml
